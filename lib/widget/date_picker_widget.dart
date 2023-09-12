@@ -235,7 +235,7 @@ class _DatePickerWidgetState extends State<DatePickerWidget> {
                         color: widget.pickerTheme!.dividerColor ??
                             widget.pickerTheme!.itemTextStyle.color,
                         height: 1,
-                        thickness: 2,
+                        thickness: 1,
                       ),
                     ),
                     SizedBox(width: MediaQuery.of(context).size.width * 0.02)
@@ -254,7 +254,7 @@ class _DatePickerWidgetState extends State<DatePickerWidget> {
                         color: widget.pickerTheme!.dividerColor ??
                             widget.pickerTheme!.itemTextStyle.color,
                         height: 1,
-                        thickness: 2,
+                        thickness: 1,
                       ),
                     ),
                     SizedBox(width: MediaQuery.of(context).size.width * 0.02),
